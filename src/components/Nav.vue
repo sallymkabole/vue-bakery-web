@@ -160,7 +160,7 @@
             />
           </div>
           <div>
-            <p class="text-white">4 YEARS OF ORGANIC BAKING</p>
+            <p class="text-white fw-bold">4 YEARS OF ORGANIC BAKING</p>
           </div>
           <div class="d-flex flex-row justify-content-center">
             <div class="d-flex flex-row justify-content-center">
@@ -185,7 +185,7 @@
             />
           </div>
           <div>
-            <p class="text-white">CAREFULLY SELECTED INGREDIENTS</p>
+            <p class="text-white fw-bold">CAREFULLY SELECTED INGREDIENTS</p>
           </div>
           <div class="d-flex flex-row justify-content-center">
             <p class="text-center text-white font-weight-italic">See more</p>
@@ -208,7 +208,7 @@
             />
           </div>
           <div>
-            <p class="text-white">EXCELLENT CUSTOMER SERVICE</p>
+            <p class="text-white fw-bold">EXCELLENT CUSTOMER SERVICE</p>
           </div>
           <div class="d-flex flex-row justify-content-center">
             <p class="text-center text-white font-weight-italic">See more</p>
@@ -224,7 +224,7 @@
     <div class="d-flex flex-row footer mt-4">
       <div class="col-4 b">
         <div class="m-2">
-          <div><p class="display-3 fw-bold txtcol">The Bakery</p></div>
+          <div><p class="display-4 fw-bold txtcol">The Bakery</p></div>
           <div class="d-flex">
             <i style="color: #c6723a" class="fab fa-facebook fa-2x m-4"></i>
             <i style="color: #c6723a" class="fab fa-instagram fa-2x m-4"></i>
@@ -233,28 +233,17 @@
         </div>
       </div>
       <div class="col-4 b">
-        <div class="m-2">
+        <div class="m-4">
           <h4 class="txtcol fw-bold">ABOUT</h4>
-          <div class="" id="navbarResponsive">
-            <ul class="ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+          <div class="nav flex-column">
+            <a class="nav-link" href="#">Our story </a>
+            <a class="nav-link" href="#">Terms And Conditions</a>
+            <a class="nav-link" href="#">Contact</a>
           </div>
         </div>
       </div>
       <div class="col-4">
-        <div class="">
+        <div class="m-4">
           <h4 class="b txtcol fw-bold">NEWSLETTER</h4>
           <p class="b">Subscribe to our Newsletter to stay up to date</p>
           <div class="d">
@@ -292,6 +281,10 @@
         </div>
       </div>
     </div>
+    <div class="footer1 d-flex flex-row justify-content-center">
+            <p class="text-center ">All Rights Reserved &copy;   The Bakery
+</p>
+    </div>
   </div>
 </template>
 
@@ -327,7 +320,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #bb987f;
+  color: #000;
 }
 
 /* visited link */
@@ -418,6 +411,12 @@ a:active {
 }
 .footer {
   height: 250px;
+}
+.footer1 {
+  height: 70px;
+}
+.disp {
+  display: block;
 }
 </style>
  
